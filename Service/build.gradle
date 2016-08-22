@@ -5,6 +5,10 @@ repositories {
     mavenCentral()
 }
 
+gretty {
+    jvmArgs=['-DLOG_PATH=' + logPath]
+}
+
 dependencies {
     compile group: 'org.springframework', name: 'spring-webmvc', version: '4.3.2.RELEASE'
     compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.21'

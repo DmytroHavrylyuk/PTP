@@ -1,0 +1,8 @@
+version: "2"
+services:
+  service:
+    build: ./Service
+    container_name: service
+  broker:
+    image: pdzilla/activemq
+    container_name: broker
