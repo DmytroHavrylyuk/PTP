@@ -15,7 +15,7 @@ import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
  * Created by dikzz on 8/21/16.
  */
 @Configuration
-@ComponentScan("com.dikzz")
+@ComponentScan("com.dikzz.generator")
 @PropertySource("classpath:application.properties")
 public class ApplicationConfiguration implements InitializingBean {
 
@@ -23,7 +23,7 @@ public class ApplicationConfiguration implements InitializingBean {
 
     private String appName;
 
-    public ApplicationConfiguration(@Value("app.name") String appName) {
+    public ApplicationConfiguration(@Value("${app.name}") String appName) {
         this.appName = appName;
     }
 

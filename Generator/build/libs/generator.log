@@ -1,8 +1,0 @@
-INFO - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4b85612c: startup date [Sun Aug 21 18:44:48 GMT 2016]; root of context hierarchy
-INFO - Application app.name is being started
-INFO - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4b85612c: startup date [Sun Aug 21 18:56:46 GMT 2016]; root of context hierarchy
-INFO - Application app.name is being started
-INFO - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4b85612c: startup date [Sun Aug 21 18:56:46 GMT 2016]; root of context hierarchy
-INFO - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4b85612c: startup date [Sun Aug 21 18:57:17 GMT 2016]; root of context hierarchy
-INFO - Application app.name is being started
-INFO - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4b85612c: startup date [Sun Aug 21 18:57:17 GMT 2016]; root of context hierarchy

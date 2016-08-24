@@ -3,6 +3,12 @@ services:
   service:
     build: ./Service
     container_name: service
+    links:
+      - broker
   broker:
     image: pdzilla/activemq
     container_name: broker
+  generator:
+    build: ./Generator
+    links:
+      - broker

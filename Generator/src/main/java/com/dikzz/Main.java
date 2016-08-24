@@ -1,6 +1,8 @@
 package com.dikzz;
 
 import com.dikzz.configuration.ApplicationConfiguration;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
@@ -10,8 +12,5 @@ public class Main {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(ApplicationConfiguration.class);
         applicationContext.registerShutdownHook();
-        applicationContext.start();
-        System.out.println("Hello");
-        applicationContext.stop();
     }
 }
